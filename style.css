@@ -27,7 +27,7 @@
 }
 textarea{
     height: 250px;
-    width: 600px;
+    width: 200px;
     background: #403d84;
     color: #fff;
     outline: 0;
@@ -42,9 +42,10 @@ textarea::placeholder{
     color: #ddd;
 }
 .row{
-    width: 600px;
+    width: 400px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 button{
@@ -57,6 +58,7 @@ button{
     outline: 0;
     cursor: pointer;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 button img{
@@ -71,6 +73,6 @@ select{
     border: 0;
     outline: 0;
     border-radius: 35px;
-    padding: 0 20px;
+    padding: 0 10px;
 
 }
